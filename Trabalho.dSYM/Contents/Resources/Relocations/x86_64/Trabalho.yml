@@ -1,9 +1,0 @@
----
-triple:          'x86_64-apple-darwin'
-binary-path:     "/Users/daviferreiradesouza/Desktop/Faculdade/Fundamentos de Computação/Trabalho /Trabalho"
-relocations:
-  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _binarioDecimal, symObjAddr: 0x0, symBinAddr: 0x1000035A0, symSize: 0x110 }
-  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _binarioDecimal, symObjAddr: 0x0, symBinAddr: 0x1000035A0, symSize: 0x110 }
-  - { offsetInCU: 0xA1, offset: 0xA1, size: 0x8, addend: 0x0, symName: _binarioOctal, symObjAddr: 0x110, symBinAddr: 0x1000036B0, symSize: 0x160 }
-  - { offsetInCU: 0x11D, offset: 0x11D, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x270, symBinAddr: 0x100003810, symSize: 0x558 }
-...
