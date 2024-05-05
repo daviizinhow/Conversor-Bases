@@ -5,6 +5,10 @@
 #include <ctype.h>
 
 
+//Compilador: GCC
+//Sistema Operacional: MacOS
+
+
 void reverseString(char* str) 
 {
     int length = strlen(str);
