@@ -931,12 +931,12 @@ int main()
             
             ret = scanf("%d", &escolha2);
 
-            while(escolha2 < 1 || escolha2 > 3)
+            while(escolha2 < 1 || escolha2 > 3 || ret != 1)
             {
                 printf("\nEscolha inválida\n");
                 printf("Insira sua escolha novamente: ");
                 while(getchar() != '\n');
-                scanf("%d", &escolha2);
+                ret = scanf("%d", &escolha2);
             }
 
             printf("\n\n");
@@ -966,14 +966,13 @@ int main()
             
             ret = scanf("%d", &escolha2);
 
-            while(escolha2 < 1 || escolha2 > 3)
+            while(escolha2 < 1 || escolha2 > 3 || ret != 1)
             {
                 printf("\nEscolha inválida\n");
                 printf("Insira sua escolha novamente: ");
                 
                 while (getchar() != '\n');
                 ret = scanf("%d", &escolha2);
-
 
             }
 
@@ -1003,7 +1002,7 @@ int main()
             printf("Insira sua escolha: ");
             ret = scanf("%d", &escolha2);
 
-            while(escolha2 < 1 || escolha2 > 3)
+            while(escolha2 < 1 || escolha2 > 3 || ret != 1)
             {
                 printf("\nEscolha inválida\n");
                 printf("Insira sua escolha novamente: ");
@@ -1039,7 +1038,7 @@ int main()
             printf("Insira sua escolha: ");
             ret = scanf("%d", &escolha2);
 
-            while(escolha2 < 1 || escolha2 > 3)
+            while(escolha2 < 1 || escolha2 > 3 || ret != 1)
             {
                 printf("\nEscolha inválida\n");
                 printf("Insira sua escolha novamente: ");
