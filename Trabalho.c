@@ -927,7 +927,6 @@ int main()
             printf("3|Hexadecimal\n\n");
 
             printf("Insira sua escolha: ");
-            scanf("%d", &escolha2);
             
             ret = scanf("%d", &escolha2);
 
