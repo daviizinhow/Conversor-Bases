@@ -887,7 +887,7 @@ int hexaDecimal()
 
     reverseString(hexadecimal);
 
-    printf("\n\n%s(16) = %lld(10)", hexadecimal, decimal);
+    printf("\n\n%s(16) = %lld(10)\n", hexadecimal, decimal);
 
     return 0;
 
